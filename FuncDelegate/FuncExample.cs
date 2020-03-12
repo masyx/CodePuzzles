@@ -19,7 +19,6 @@ namespace FuncDelegate
 
             // Query the array and select strings according to the selector method.
             IEnumerable<string> aWordss = wordss.Select(selector);
-
             Console.WriteLine("\nEXAMPLE No.1");
             foreach (String word in aWordss)
                 Console.WriteLine(word);

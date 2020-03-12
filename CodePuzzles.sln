@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1022
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLettersInEveryWordInSentence", "CodePuzzles\ReverseLettersInEveryWordInSentence.csproj", "{1477F78C-0E0B-459F-BE2F-91CD22142687}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegate", "FuncDelegate\FuncDelegate.csproj", "{CCC990C3-05DC-4551-B933-CF89627ED5F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncDelegate", "FuncDelegate\FuncDelegate.csproj", "{CCC990C3-05DC-4551-B933-CF89627ED5F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1477F78C-0E0B-459F-BE2F-91CD22142687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1477F78C-0E0B-459F-BE2F-91CD22142687}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1477F78C-0E0B-459F-BE2F-91CD22142687}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1477F78C-0E0B-459F-BE2F-91CD22142687}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CCC990C3-05DC-4551-B933-CF89627ED5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCC990C3-05DC-4551-B933-CF89627ED5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCC990C3-05DC-4551-B933-CF89627ED5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
