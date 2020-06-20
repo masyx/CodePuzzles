@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace IntTryParse
 {
-    class Program
+    class IntTryParse
     {
         static void Main(string[] args)
         {
@@ -29,8 +29,7 @@ namespace IntTryParse
                 }
                 else
                 {
-                    Console.WriteLine("Attempted conversion of '{0}' failed.",
-                                   value ?? "<null>");
+                    Console.WriteLine("Attempted conversion of '{0}' failed.", value ?? "<null>");
                 }
             }
             
