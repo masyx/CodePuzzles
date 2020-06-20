@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefferedExecution", "Deffer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegate", "FuncDelegate\FuncDelegate.csproj", "{80D5B633-B1F3-41BD-A94D-678C350AA389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{80D5B633-B1F3-41BD-A94D-678C350AA389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D5B633-B1F3-41BD-A94D-678C350AA389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D5B633-B1F3-41BD-A94D-678C350AA389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
