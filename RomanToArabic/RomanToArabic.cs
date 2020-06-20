@@ -2,7 +2,7 @@
 
 namespace RomanToArabic
 {
-    class MainClass
+    class RomanToArabic
     {
         public static void Main(string[] args)
         {
