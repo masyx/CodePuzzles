@@ -7,17 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToArabic", "RomanToAra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLettersInEveryWordInSentence", "ReverseLettersInEveryWordInSentence\ReverseLettersInEveryWordInSentence.csproj", "{2462AF6B-7CFB-4281-A20E-67F85E58D959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{E7381A12-EF4A-420A-A07E-BED7297CFEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clock", "Clock\Clock.csproj", "{E7381A12-EF4A-420A-A07E-BED7297CFEE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{FDB92669-1234-4E7B-AFF2-F584D3935C3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{FC81C80E-0C5A-4B8A-8CD8-ED650C58883C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{FC81C80E-0C5A-4B8A-8CD8-ED650C58883C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsIntegerPolindrom", "IsIntegerPolindrom\IsIntegerPolindrom.csproj", "{0DF16408-CC1C-4228-B0A7-DFBE9FFC4690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsIntegerPolindrom", "IsIntegerPolindrom\IsIntegerPolindrom.csproj", "{0DF16408-CC1C-4228-B0A7-DFBE9FFC4690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseOnlyLetters", "ReverseOnlyLetters\ReverseOnlyLetters.csproj", "{118B5B3A-D211-4B4B-9337-5C3B055C0DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseOnlyLetters", "ReverseOnlyLetters\ReverseOnlyLetters.csproj", "{118B5B3A-D211-4B4B-9337-5C3B055C0DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfCoinsCS50", "NumberOfCoinsCS50\NumberOfCoinsCS50.csproj", "{3CA4D542-EC10-4103-962B-97FFA5B0F1C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{118B5B3A-D211-4B4B-9337-5C3B055C0DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118B5B3A-D211-4B4B-9337-5C3B055C0DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118B5B3A-D211-4B4B-9337-5C3B055C0DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA4D542-EC10-4103-962B-97FFA5B0F1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA4D542-EC10-4103-962B-97FFA5B0F1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA4D542-EC10-4103-962B-97FFA5B0F1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA4D542-EC10-4103-962B-97FFA5B0F1C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
