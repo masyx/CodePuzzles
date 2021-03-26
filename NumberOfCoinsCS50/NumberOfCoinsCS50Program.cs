@@ -2,7 +2,7 @@
 
 namespace NumberOfCoinsCS50
 {
-    class Program
+    class NumberOfCoinsCS50Program
     {
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace NumberOfCoinsCS50
 
             int[] denominations = { 25, 10, 5, 1 };
             
-            //int size = sizeof(denominations) / sizeof(int); c language solution
+            //int size = sizeof(denominations) / sizeof(int); // c language solution
 
             for (int i = 0; i < denominations.Length; i++)
             {
