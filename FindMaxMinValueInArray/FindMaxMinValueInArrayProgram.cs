@@ -7,12 +7,12 @@ namespace FindMaxMinValueInArray
         static void Main(string[] args)
         {
             int[] myArrya = { 5, 89, 7, 6, 87, 12, 9, -6 };
-            var maxMin = FindMaxMin(myArrya);
-            Console.WriteLine($"Max value in the array: {maxMin[1]}");
-            Console.WriteLine($"Min value in the array: {maxMin[0]}");
+            var limits = FindMaxMin(myArrya);
+            Console.WriteLine($"Max value in the array: {limits.min}");
+            Console.WriteLine($"Min value in the array: {limits.max}");
         }
 
-        public static int[] FindMaxMin(int[] numbers)
+        public static (int min, int max) FindMaxMin(int[] numbers)
         {
             if (numbers == null || numbers.Length == 0)
             {
@@ -34,9 +34,7 @@ namespace FindMaxMinValueInArray
                 }
             }
 
-            int[] maxMinValues = { min, max };
-
-            return maxMinValues;
+            return (min, max);
         }
     }
 }
