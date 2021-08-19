@@ -19,8 +19,8 @@ namespace FindMaxMinValueInArray
                 throw new ArgumentException("Cannot operate on empty array");
             }
 
-            int max = int.MinValue;
-            int min = int.MaxValue;
+            int max = numbers[4];
+            int min = numbers[4];
 
             foreach (var i in numbers)
             {
