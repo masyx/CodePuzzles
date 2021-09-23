@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace FizzBuzz
 {
@@ -46,6 +47,33 @@ namespace FizzBuzz
                 }
                 Console.Write(str + ",");
             }
+
+
+            //OR
+
+            Console.WriteLine();
+
+            var numbers = Enumerable.Range(1, 100);
+
+            foreach(int number in numbers)
+            {
+                var str = "";
+                if(number % 3 == 0)
+                {
+                    str += "Fizz";
+                }
+                if (number % 5 == 0)
+                {
+                    str += "Buzz";
+                }
+                if (str.Length == 0)
+                {
+                    str = number.ToString();
+                }
+
+                Console.Write(str + ",");
+            }
         }
+
     }
 }
