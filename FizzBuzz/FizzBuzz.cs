@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace FizzBuzz
 {
@@ -7,37 +8,36 @@ namespace FizzBuzz
     {
         public static void Main(string[] args)
         {
-            for (int i = 1; i <= 100; i++)
+            // No.1
+            foreach (var item in FizzBuzz1())
             {
-                if (i % 3 == 0 && i % 5 == 0)
-                {
-                    Console.Write("FizzBuzz,");
-                }
-                else if (i % 3 ==0)
-                {
-                    Console.Write("Fizz,");
-                }
-                else if (i % 5 == 0)
-                {
-                    Console.Write("Buzz,");
-                }
-                else
-                {
-                    Console.Write($"{i.ToString()},");
-                }
+                Console.Write(item + ",");
             }
 
-            // OR
             Console.WriteLine();
+
+            // No.2
+            foreach (var item in FizzBuzz2())
+            {
+                Console.Write(item + ",");
+            }
+
+            Console.ReadLine();
+        }
+
+        static List<string> FizzBuzz1()
+        {
+            var result = new List<string>();
 
             for (int i = 1; i <= 100; i++)
             {
                 string str = "";
+
                 if (i % 3 == 0)
                 {
                     str += "Fizz";
                 }
-                if(i % 5 == 0)
+                if (i % 5 == 0)
                 {
                     str += "Buzz";
                 }
@@ -45,35 +45,27 @@ namespace FizzBuzz
                 {
                     str = i.ToString();
                 }
-                Console.Write(str + ",");
+                result.Add(str);
             }
-
-
-            //OR
-
-            Console.WriteLine();
-
-            var numbers = Enumerable.Range(1, 100);
-
-            foreach(int number in numbers)
-            {
-                var str = "";
-                if(number % 3 == 0)
-                {
-                    str += "Fizz";
-                }
-                if (number % 5 == 0)
-                {
-                    str += "Buzz";
-                }
-                if (str.Length == 0)
-                {
-                    str = number.ToString();
-                }
-
-                Console.Write(str + ",");
-            }
+            return result;
         }
 
+        static List<string> FizzBuzz2()
+        {
+            var result = new List<string>();
+
+            for(int i = 1; i < 101; i++)
+            {
+                if (i % 5 == 0 && i % 3 == 0)
+                    result.Add("FizzBuzz");
+                else if (i % 3 == 0)
+                    result.Add("Fizz");
+                else if (i % 5 == 0)
+                    result.Add("Buzz");
+                else
+                    result.Add(i.ToString());
+            }
+            return result;
+        }
     }
 }
