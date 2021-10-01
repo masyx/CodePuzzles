@@ -8,7 +8,7 @@ namespace LengthOfLastWord
         {
             //
             //"   fly me   to   the moon "
-            var i = LengthOfLastWordCPP("   fly me   to   the WORLD  ");
+            var i = LengthOfLastWordCPP("   fly me   to   the moon ");
             Console.WriteLine($"Length of last word is {i}");
         }
 
@@ -39,9 +39,12 @@ namespace LengthOfLastWord
 
             while (s[tail] >= 0 && s[tail] == ' ')
                 tail--;
-            while (s[tail] != ' ')
+            while (s[tail] >= 0 && s[tail] != ' ')
             {
                 lengh++;
+                if (tail == 0)
+                    break;
+                    
                 tail--;
             }
             return lengh;
