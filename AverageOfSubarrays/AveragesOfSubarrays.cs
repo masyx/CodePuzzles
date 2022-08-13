@@ -9,6 +9,7 @@
             Console.WriteLine(result);
         }
 
+        // O(n*K) time | O(n/K) space
         public static List<float> AveragesOfSubarraysMethod(int K, List<float> array)
         {
             var result = new List<float>();
