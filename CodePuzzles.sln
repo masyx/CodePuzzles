@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A__TRY", "TRY\A__TRY.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageOfSubarrays", "AverageOfSubarrays\AverageOfSubarrays.csproj", "{643D43E7-4AF9-4091-B6A8-3C397A6953BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingInteger", "FirstNonRepeatingInteger\FirstNonRepeatingInteger.csproj", "{27EF4B8F-70DD-496B-B8FB-46E12010D388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingInteger", "FirstNonRepeatingInteger\FirstNonRepeatingInteger.csproj", "{27EF4B8F-70DD-496B-B8FB-46E12010D388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{F8940253-F638-462B-B27C-2B207507BF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Test", "LeetCode.Test\LeetCode.Test.csproj", "{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{27EF4B8F-70DD-496B-B8FB-46E12010D388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EF4B8F-70DD-496B-B8FB-46E12010D388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EF4B8F-70DD-496B-B8FB-46E12010D388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8940253-F638-462B-B27C-2B207507BF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8940253-F638-462B-B27C-2B207507BF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8940253-F638-462B-B27C-2B207507BF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8940253-F638-462B-B27C-2B207507BF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
