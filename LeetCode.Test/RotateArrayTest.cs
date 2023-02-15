@@ -49,5 +49,24 @@ namespace LeetCode.Test
             Assert.IsEmpty(array);
             //Assert.Throws<ArgumentException>(() => new RotateArray().RotateArrayInPlace(array, 99));
         }
+
+        [Test]
+        public void RotateArrayInPlaceBestTest()
+        {
+            var array = new int[] { 1, 2, 3, 4 };
+
+            var rotator = new RotateArray();
+            rotator.RotateArrayInPlaceBest(array, 3);
+
+            Assert.AreEqual(1, array[3]); // expecting to see number 2 shifted to idx 3
+        }
+
+        [Test]
+        public void RotateArrayInPlaceBestTest_EmptyArray()
+        {
+            var array = new int[0];
+
+            Assert.Throws<ArgumentException>(() => new RotateArray().RotateArrayInPlaceBest(array, 99));
+        }
     }
 }

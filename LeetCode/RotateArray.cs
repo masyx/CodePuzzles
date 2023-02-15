@@ -1,4 +1,6 @@
-﻿namespace LeetCode
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace LeetCode
 {
     public class RotateArray
     {
@@ -28,6 +30,31 @@
                     array[j] = previous;
                     previous = temp;
                 }
+            }
+        }
+
+        public void RotateArrayInPlaceBest(int[] array, int k)
+        {
+            var length = array.Length;
+            if (length == 0)
+                throw new ArgumentException("Array is empty");
+            k %= length;
+
+            ReverseArray(array, 0, length - 1);
+            ReverseArray(array, 0, k - 1);
+            ReverseArray(array, k, length - 1);
+        }
+
+        public static void ReverseArray(int[] array, int start, int end)
+        {
+            while(start < end)
+            {
+                var temp = array[start];
+                array[start] = array[end];
+                array[end] = temp;
+
+                start++;
+                end--;
             }
         }
     }
