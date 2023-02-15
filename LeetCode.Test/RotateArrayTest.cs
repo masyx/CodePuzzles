@@ -19,9 +19,9 @@ namespace LeetCode.Test
         }
 
         [Test]
-        public void RotateArrayTest_2()
+        public void RotateArrayTest_EmptyArray()
         {
-            var array = new int[] { };
+            var array = new int[0];
 
             var rotator = new LeetCode.RotateArray();
             var rotatedArray = rotator.RotateArrayMethod(array, 2);
@@ -30,5 +30,24 @@ namespace LeetCode.Test
 
         }
 
+        [Test]
+        public void RotateArrayInPlaceMethodTest_1()
+        {
+            var array = new int[] { 1, 2, 3, 4 };
+
+            var rotator = new RotateArray();
+            rotator.RotateArrayInPlace(array, 2);
+
+            Assert.AreEqual(2, array[3]); // expecting to see number 2 shifted to idx 3
+        }
+
+        [Test]
+        public void RotateArrayInPlaceMethodTest_EmptyArray()
+        {
+            var array = new int[0];
+
+            Assert.IsEmpty(array);
+            //Assert.Throws<ArgumentException>(() => new RotateArray().RotateArrayInPlace(array, 99));
+        }
     }
 }

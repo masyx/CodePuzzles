@@ -12,5 +12,23 @@
             return result;
         }
 
+        public void RotateArrayInPlace(int[] array, int k)
+        {
+            var length = array.Length;
+            if (length == 0)
+                //throw new ArgumentException("Array is empty.");
+                return;
+            k %= length;
+            for(int i = 0; i < k; i++)
+            {
+                var previous = array[length - 1];
+                for(int j = 0; j < length; j++)
+                {
+                    var temp = array[j];
+                    array[j] = previous;
+                    previous = temp;
+                }
+            }
+        }
     }
 }
