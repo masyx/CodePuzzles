@@ -8,6 +8,7 @@ namespace LeetCode
 {
     public static class RearrangeMaxMin
     {
+        // O(n) time | O(n) space
         public static List<int> RearrangeToMaxMin(List<int> list)
         {
             if (list.Count == 0)
