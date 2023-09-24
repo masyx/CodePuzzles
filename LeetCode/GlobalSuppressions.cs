@@ -6,4 +6,4 @@
 using System.Diagnostics.CodeAnalysis;
 
 [assembly: SuppressMessage("Naming", "VSSpell001:Spell Check", Justification = "<Pending>", Scope = "namespace", Target = "~N:LeetCode")]
-[assembly: SuppressMessage("Naming", "VSSpell001:Spell Check", Justification = "<Pending>", Scope = "member", Target = "~M:LeetCode.TwoSum.TwoSum(System.Collections.Generic.List{System.Int32},System.Int32)~System.Collections.Generic.List{System.Int32}")]
+[assembly: SuppressMessage("Naming", "VSSpell001:Spell Check", Justification = "<Pending>", Scope = "member", Target = "~M:LeetCode.TwoSum.TwoSumHashMap(System.Collections.Generic.List{System.Int32},System.Int32)~System.Collections.Generic.List{System.Int32}")]

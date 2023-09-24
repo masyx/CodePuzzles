@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLettersInEveryWordIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clock", "Clock\Clock.csproj", "{E7381A12-EF4A-420A-A07E-BED7297CFEE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{FDB92669-1234-4E7B-AFF2-F584D3935C3D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{FC81C80E-0C5A-4B8A-8CD8-ED650C58883C}"
@@ -33,9 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageOfSubarrays", "Avera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingInteger", "FirstNonRepeatingInteger\FirstNonRepeatingInteger.csproj", "{27EF4B8F-70DD-496B-B8FB-46E12010D388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{F8940253-F638-462B-B27C-2B207507BF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{F8940253-F638-462B-B27C-2B207507BF8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Test", "LeetCode.Test\LeetCode.Test.csproj", "{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Test", "LeetCode.Test\LeetCode.Test.csproj", "{970E1573-18F8-459A-A8A3-B08C8BE2AF6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +53,6 @@ Global
 		{E7381A12-EF4A-420A-A07E-BED7297CFEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7381A12-EF4A-420A-A07E-BED7297CFEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7381A12-EF4A-420A-A07E-BED7297CFEE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA2E1095-6BDF-48A9-8C26-FAF03B026DD2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDB92669-1234-4E7B-AFF2-F584D3935C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDB92669-1234-4E7B-AFF2-F584D3935C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDB92669-1234-4E7B-AFF2-F584D3935C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
